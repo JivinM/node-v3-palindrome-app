@@ -1,0 +1,33 @@
+<!-- Github author: JivinM -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    {{>header}}
+
+
+    <div class="main">
+        <p id="in">Type in a word:</p>
+        <span>
+            <input type="text" id="word" placeholder="Palindromic word">
+            <button onclick="main()" id="chkbtn">Check</button>
+        </span>
+        <br>
+
+        <p id="ans"></p>
+    </div>
+
+    {{>footer}}
+
+    <!-- SCRIPTS -->
+    <script src="/js/palindrome.js"></script>
+</body>
+</html>
